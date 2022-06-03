@@ -4,7 +4,7 @@ library(stringr)
 
 #lade die Daten
 
-df <- read.csv2("./laptops.csv", header = TRUE, sep= ",", dec=".")
+df <- read.csv2("./laptops.csv", header = TRUE, sep= ",", dec= "..")
 
 #sehe die Struktur der Daten
 str(df)
