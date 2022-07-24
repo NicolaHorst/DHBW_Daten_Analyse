@@ -110,3 +110,4 @@ fig
 
 fig <- plot_ly(data = df, x = ~math.score, color = ~gender, type = "scatter")
 fig
+
